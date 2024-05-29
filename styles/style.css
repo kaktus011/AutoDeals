@@ -1,140 +1,119 @@
+/* General */
 body {
-      font: 16px sans-serif;
-}
-
-#banner {
-    text-align: center;
-    color: black; 
-    position: relative;
-}
-
-#centeredTitle {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#centeredP {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#listings {
-    background-color: #d8d8d8;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-#listings img {
-    width: 400px;
-    height: 270px;
-}
-
-#aston {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#aston img {
-    width: 370px;
-    height: 270px;
-}
-
-#aston:hover {
-    outline: 2px solid black;
-    background-color: #b8b8b8;
-}
-
-#ferrari, #nissan, #bmw, #porsche {
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-#ferrari:hover {
-    outline: 2px solid black;
-    background-color: #b8b8b8;
-}
-
-#nissan:hover {
-    background-color: #b8b8b8;
-    outline: 2px solid black;
-}
-
-#bmw:hover {
-    outline: 2px solid black;
-    background-color: #b8b8b8;
-}
-
-#porsche:hover {
-    outline: 2px solid black;
-    background-color: #b8b8b8;
-}
-
-#listing {
-    display: flex;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#listingImages {
-    width: 1064px;
-    height: 1596px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-#listingImage {
-    margin-top: 17px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 1024px;
-    height: 768px;
-}
-
-#listingInfo {
-    margin-top: 50px;
-    margin-left: 20px;
-    text-align: center;
-}
-
-#forms {
-    display: flex;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-
-#orderDiv, #reviewDiv{
-    margin-left: 20px;
-    background-color: #d8d8d8;
-}
-
-#reviews {
-    background-color: #d8d8d8;
-    margin-bottom: 20px;
-}
-
-#review {
-    display: flex;
-}
-
-#review img {
-    display: flex;
-    width: 25px;
-    height: 25px;
+   font: 16px sans-serif;
 }
 
 footer {
-    color: white;
-    background-color: #5e5e5e;
-    display: flex;
-    justify-content: center;
+   color: white;
+   background-color: #5e5e5e;
+   display: flex;
+   justify-content: center;
+}
+
+.banner {
+   text-align: center;
+   color: black;
+   position: relative;
+}
+
+.banner h1,
+.banner p {
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#UnderTitle {
+   top: 50%;
+}
+
+/* Main page */
+.listings {
+   background-color: #d8d8d8;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.listings img {
+   width: 400px;
+   height: 270px;
+}
+
+.listings div {
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+.listings div:hover {
+   outline: 2px solid black;
+   background-color: #b8b8b8;
+}
+
+#aston {
+   margin-left: 20px;
+}
+
+#aston img {
+   width: 370px;
+   height: 270px;
+}
+
+/* Listing pages */
+.listing {
+   display: flex;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+#listingImages {
+   width: 1064px;
+   height: 1596px;
+   margin-top: 20px;
+   text-align: center;
+}
+
+#listingImages img {
+   margin-top: 17px;
+   margin-left: 20px;
+   margin-right: 20px;
+   width: 1024px;
+   height: 768px;
+}
+
+#listingInfo {
+   margin-top: 50px;
+   margin-left: 20px;
+   text-align: center;
+}
+
+.forms {
+   display: flex;
+   margin-bottom: 20px;
+   margin-right: 20px;
+}
+
+.forms div {
+   margin-left: 20px;
+   background-color: #d8d8d8;
+}
+
+#reviews {
+   background-color: #d8d8d8;
+   margin-bottom: 20px;
+}
+
+#reviews div {
+   display: flex;
+}
+
+#reviews div img {
+   display: flex;
+   width: 25px;
+   height: 25px;
 }
